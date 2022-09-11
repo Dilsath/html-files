@@ -1,0 +1,34 @@
+%Container3 {
+    .container3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // padding: 50px 20px;
+        box-sizing: border-box;
+        background-color: rgb(250, 248, 248);
+        height: 100vh;
+
+        >.wrapper {
+            display: flex;
+            flex-direction: row;
+            max-width: 1800px;
+
+            >.grid {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 10px;
+                >.card {
+
+                    // height: 550px;
+                    // width: 361px;
+                    // background-color: rgb(67, 0, 250);
+                    display: block;
+                    text-align: center;
+                    margin-top: 0%;
+            
+                  }
+
+            }
+
+        }
+    }}

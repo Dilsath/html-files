@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+            :root{
+                --backgroundtheme:#FFFFFF ;
+                --frontcolor:#0088CA;
+                --backcolor:#2E2926;
+
+            }
+            body{
+                background-color: var(--backgroundtheme);
+            }
+            .alpha{
+                height: 500px;
+                width: 500px;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+             }
+            .backleftrect{
+                height: 300px;
+                width: 200px;
+                position: relative;
+                color: var(--backcolor);
+                top: 50%;
+                left: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="alpha">
+            <div class="backleftrect"></div>
+            <div class="backrightrect"></div>
+            <div class="frontleftrect"></div>
+            <div class="frontrightrect"></div>
+
+        </main>
+    </body>
+</html>

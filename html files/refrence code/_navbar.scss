@@ -1,0 +1,49 @@
+%Navbar {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        background-color:rgb(255,255,255);
+        color: rgb(15, 2, 2);
+        list-style-type: none;
+        padding: 0px 20px;
+        box-sizing: border-box;
+        font-weight: 300;
+      
+
+      >  .navbar-leftroute {
+          display: flex;
+          align-items: center;
+          gap: 40px;
+          font-size: large;
+          font-weight: bold;
+      } 
+    >  .navbar-rightroute {
+          display: flex;
+          align-items: center;
+          gap: 40px;
+          >&:hover{
+            color: red;
+            cursor: pointer;
+          }
+      } 
+   
+      .navbar-centreroute{
+          display: flex;
+          align-items: center;
+          gap:50px;
+          margin: auto;
+          font-weight: 500;
+          color: black;
+          text-decoration: none;
+      
+        }
+          .navbar-centreroute a:hover{
+            color: red;
+            cursor: pointer;
+            }
+        
+    }
+
+}
